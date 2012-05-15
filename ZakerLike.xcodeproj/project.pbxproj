@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE91F06A15623B2B005C358F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06915623B2B005C358F /* UIKit.framework */; };
+		CE91F06C15623B2B005C358F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06B15623B2B005C358F /* Foundation.framework */; };
+		CE91F06E15623B2C005C358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06D15623B2B005C358F /* CoreGraphics.framework */; };
+		CE91F07415623B2C005C358F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE91F07215623B2C005C358F /* InfoPlist.strings */; };
+		CE91F07615623B2C005C358F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F07515623B2C005C358F /* main.m */; };
+		CE91F07A15623B2C005C358F /* BUPOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F07915623B2C005C358F /* BUPOAppDelegate.m */; };
+		CE91F07D15623B2C005C358F /* BUPOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F07C15623B2C005C358F /* BUPOViewController.m */; };
+		CE91F08015623B2C005C358F /* BUPOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE91F07E15623B2C005C358F /* BUPOViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE91F06515623B2B005C358F /* ZakerLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZakerLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE91F06915623B2B005C358F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE91F06B15623B2B005C358F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE91F06D15623B2B005C358F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE91F07115623B2C005C358F /* ZakerLike-Info.plist */ = {isa = PBXFileReference; path = "ZakerLike-Info.plist"; sourceTree = "<group>"; };
+		CE91F07315623B2C005C358F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE91F07515623B2C005C358F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE91F07715623B2C005C358F /* ZakerLike-Prefix.pch */ = {isa = PBXFileReference; path = "ZakerLike-Prefix.pch"; sourceTree = "<group>"; };
+		CE91F07815623B2C005C358F /* BUPOAppDelegate.h */ = {isa = PBXFileReference; path = BUPOAppDelegate.h; sourceTree = "<group>"; };
+		CE91F07915623B2C005C358F /* BUPOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUPOAppDelegate.m; sourceTree = "<group>"; };
+		CE91F07B15623B2C005C358F /* BUPOViewController.h */ = {isa = PBXFileReference; path = BUPOViewController.h; sourceTree = "<group>"; };
+		CE91F07C15623B2C005C358F /* BUPOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUPOViewController.m; sourceTree = "<group>"; };
+		CE91F07F15623B2C005C358F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BUPOViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE91F06215623B2B005C358F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91F06A15623B2B005C358F /* UIKit.framework in Frameworks */,
+				CE91F06C15623B2B005C358F /* Foundation.framework in Frameworks */,
+				CE91F06E15623B2C005C358F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE91F05A15623B2B005C358F = {
+			isa = PBXGroup;
+			children = (
+				CE91F06F15623B2C005C358F /* ZakerLike */,
+				CE91F06815623B2B005C358F /* Frameworks */,
+				CE91F06615623B2B005C358F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE91F06615623B2B005C358F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE91F06515623B2B005C358F /* ZakerLike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE91F06815623B2B005C358F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE91F06915623B2B005C358F /* UIKit.framework */,
+				CE91F06B15623B2B005C358F /* Foundation.framework */,
+				CE91F06D15623B2B005C358F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE91F06F15623B2C005C358F /* ZakerLike */ = {
+			isa = PBXGroup;
+			children = (
+				CE91F07815623B2C005C358F /* BUPOAppDelegate.h */,
+				CE91F07915623B2C005C358F /* BUPOAppDelegate.m */,
+				CE91F07B15623B2C005C358F /* BUPOViewController.h */,
+				CE91F07C15623B2C005C358F /* BUPOViewController.m */,
+				CE91F07E15623B2C005C358F /* BUPOViewController.xib */,
+				CE91F07015623B2C005C358F /* Supporting Files */,
+			);
+			path = ZakerLike;
+			sourceTree = "<group>";
+		};
+		CE91F07015623B2C005C358F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE91F07115623B2C005C358F /* ZakerLike-Info.plist */,
+				CE91F07215623B2C005C358F /* InfoPlist.strings */,
+				CE91F07515623B2C005C358F /* main.m */,
+				CE91F07715623B2C005C358F /* ZakerLike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE91F06415623B2B005C358F /* ZakerLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE91F08315623B2C005C358F /* Build configuration list for PBXNativeTarget "ZakerLike" */;
+			buildPhases = (
+				CE91F06115623B2B005C358F /* Sources */,
+				CE91F06215623B2B005C358F /* Frameworks */,
+				CE91F06315623B2B005C358F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZakerLike;
+			productName = ZakerLike;
+			productReference = CE91F06515623B2B005C358F /* ZakerLike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE91F05C15623B2B005C358F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Wuxi Smart Sencing Star";
+			};
+			buildConfigurationList = CE91F05F15623B2B005C358F /* Build configuration list for PBXProject "ZakerLike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE91F05A15623B2B005C358F;
+			productRefGroup = CE91F06615623B2B005C358F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE91F06415623B2B005C358F /* ZakerLike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE91F06315623B2B005C358F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91F07415623B2C005C358F /* InfoPlist.strings in Resources */,
+				CE91F08015623B2C005C358F /* BUPOViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE91F06115623B2B005C358F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91F07615623B2C005C358F /* main.m in Sources */,
+				CE91F07A15623B2C005C358F /* BUPOAppDelegate.m in Sources */,
+				CE91F07D15623B2C005C358F /* BUPOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE91F07215623B2C005C358F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE91F07315623B2C005C358F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE91F07E15623B2C005C358F /* BUPOViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE91F07F15623B2C005C358F /* en */,
+			);
+			name = BUPOViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE91F08115623B2C005C358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE91F08215623B2C005C358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE91F08415623B2C005C358F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZakerLike/ZakerLike-Prefix.pch";
+				INFOPLIST_FILE = "ZakerLike/ZakerLike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE91F08515623B2C005C358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZakerLike/ZakerLike-Prefix.pch";
+				INFOPLIST_FILE = "ZakerLike/ZakerLike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE91F05F15623B2B005C358F /* Build configuration list for PBXProject "ZakerLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE91F08115623B2C005C358F /* Debug */,
+				CE91F08215623B2C005C358F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE91F08315623B2C005C358F /* Build configuration list for PBXNativeTarget "ZakerLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE91F08415623B2C005C358F /* Debug */,
+				CE91F08515623B2C005C358F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE91F05C15623B2B005C358F /* Project object */;
+}
